@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="Toggle" Description="Custom toggle">
+<Initiate Name="Layout.Normal.Width" Value="55" />
+<Initiate Name="Layout.Normal.Height" Value="25"/>
+  <Initiate Name="Caption.Show" Value="0" />
+  <Initiate Name="Layout.Border.Use" Value="0" />
+    <Initiate Name="Background.Color.ColorHex" Value="#f2ccc1" />
+    <Initiate Name="Background.Color.Transparency" Value="255" />
+
+    <!-- Properties -->
+  
+<!-- Цвета -->
+    <Text Label="Main color" Type="color" Initial="" Expression="white"/>
+    <Text Label="Color ON" Type="color" Initial="" Expression="#16a765"/>
+    <Text Label="Color OFF" Type="color" Initial="" Expression="gray"/>
+	<Text Label="Frame color" Type="color" Initial="" Expression="white"/>
+
+<!-- Размеры -->
+    <Text Label="Toggle width" Type="text" Initial="" Expression="51px"/>
+    <Text Label="Toggle height" Type="text" Initial="" Expression="23px"/>
+    <Text Label="Rounded corners" Type="text" Initial="" Expression="16px 16px 16px 16px"/>
+
+<!-- Значения -->
+	<Text Label="Input variable" Type="text" Initial="" Expression="saVariable"/>
+    <Text Label="OFF-value" Type="text" Initial="" Expression="OFF"/>
+	<Text Label="ON-value" Type="text" Initial="" Expression="ON"/>
+	
+    <PropertiesPage Version="11" File="props.qvpp" /> 
+</ExtensionObject>

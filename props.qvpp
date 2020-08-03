@@ -1,0 +1,66 @@
+﻿<div class="ToolWindow-MainBody" avq="foldOutMenu:." style="overflow: visible !important; float: left;"> 
+<div class="prop-accordion" avq="accordion:."> <h3 class="prop-h3 accordion-shadow"> 
+<a href="#"> ToggleOptions </a> </h3> 
+<div class="prop-grid_container accordion-shadow-enabler" style="overflow:auto;">
+
+<div class="prop-grid_clear prop-grid_top-vertical-spacer-12px prop-grid_last"></div>
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 10px; top: 15px; width: 80%" avq='prop_label'>Main color</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.0.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 10px; top: 45px; width: 80%" avq='prop_label'>Color ON</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.1.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 10px; top: 75px; width: 80%" avq='prop_label'>Color OFF</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.2.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 10px; top: 105px; width: 80%" avq='prop_label'>Frame color</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' propicontype='singlecolor' avq='prop_dlgbutton:.Chart.Text.3.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 130px; top: 135px" avq='prop_label'>Toggle width</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' style='width:70%;' avq='prop_editexpression:.Chart.Text.4.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 130px; top: 165px" avq='prop_label'>Toggle height</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' style='width:70%;' avq='prop_editexpression:.Chart.Text.5.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 130px; top: 195px" avq='prop_label'>Rounded corners</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' style='width:70%;' avq='prop_editexpression:.Chart.Text.6.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 130px; top: 225px" avq='prop_label'>Input variable</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' style='width:70%;' avq='prop_editexpression:.Chart.Text.7.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 130px; top: 255px" avq='prop_label'>OFF-value</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' style='width:70%;' avq='prop_editexpression:.Chart.Text.8.Content:Color.qvpp'>
+</div> </div><br /> 
+
+<div class='prop-grid_clear prop-grid_prepend-1 prop-grid_span-5' style="position: absolute; left: 130px; top: 285px" avq='prop_label'>ON-value</div> 
+<div class='prop-grid_span-10 prop-grid_last'> 
+<div class='prop-grid_span-1 prop-grid_last' style='width:70%;' avq='prop_editexpression:.Chart.Text.9.Content:Color.qvpp'>
+</div> </div><br /> 
+
+</div> 
+
+<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:GenericPresentationFoldout.qvpp"> <a href="#">Presentation</a> </h3> 
+<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Layout.qvpp"></div> 
+
+<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader::PropertiesCaptionFoldout.qvpp"> <a href="#">Caption</a> </h3> 
+<div class="prop-grid_container accordion-shadow-enabler" avq="panel::Caption.qvpp"></div> 
+<h3 class="prop-h3 accordion-shadow" avq="activeAccordionHeader:.:PropertiesOptionsFoldout.qvpp"> 
+<a href="#">Options</a> </h3> <div class="prop-grid_container accordion-shadow-enabler" avq="panel::Options.qvpp"></div> </div> <span class="bottom-gap"></span> </div>
